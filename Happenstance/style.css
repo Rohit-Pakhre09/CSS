@@ -1,0 +1,373 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navmen {
+    height: 110px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97);
+    position: sticky;
+    top: 0%;
+    margin-bottom: 2%;
+}
+
+.navbar {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+.nav {
+    height: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+.list {
+    float: right;
+}
+
+.list ul li {
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list ul li a i {
+    font-size: 17px;
+}
+
+.list ul li a i span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    height: 35px;
+    width: 100%;
+}
+
+.menulist {
+    height: 35px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menulist .logo img {
+    height: 35px;
+}
+
+.menulist .lists ul li {
+    float: left;
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.menulist .lists ul li::after {
+    position: relative;
+    content: "";
+    display: block;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    margin: auto;
+    width: 0%;
+    transition: 0.3s all ease-in-out;
+}
+
+.menulist .lists ul li:hover:after {
+    width: 100%;
+}
+
+.menulist .lists ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.menulist .search {
+    height: 40px;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.307);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.menulist .search input {
+    height: 25px;
+    margin-top: 6.5px;
+    margin-left: 0px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    outline: none;
+}
+
+.search i {
+    margin-left: 5%;
+    font-size: 15px;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.banner .image {
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+.banner .image img {
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.haps {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.line1 {
+    height: 1px;
+    width: 44%;
+    border-bottom: 1px solid black;
+    background-color: black;
+}
+
+.line2 {
+    height: 1px;
+    width: 44%;
+    border-bottom: 1px solid black;
+    background-color: black;
+}
+
+.category {
+    height: 40px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.category p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(96, 95, 95);
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.Imageblocks {
+    margin-bottom: 1%;
+}
+
+.container1 {
+    height: 315px;
+    width: 100%;
+}
+
+.boxes1 {
+    height: 315px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes1 img {
+    height: 300px;
+    width: 325px;
+    border-radius: 10px;
+}
+
+.container2 {
+    height: 300px;
+    width: 100%;
+}
+
+.boxes2 {
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes2 img {
+    height: 300px;
+    width: 325px;
+    border-radius: 10px;
+}
+
+.videos {
+    height: 1267px;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.video {
+    height: 1267px;
+    width: 70%;
+    margin: auto;
+}
+
+.conts1,
+.conts2,
+.conts3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4 {
+    height: 500px;
+    width: 320px;
+    float: left;
+    margin-bottom: 38px;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+.button {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.btn {
+    height: 40px;
+    width: 70%;
+    margin: auto;
+    line-height: 40px;
+    margin-bottom: 1%;
+}
+
+.btn button {
+    height: 35px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    outline: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.btn i {
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.footer {
+    height: 210px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.foot {
+    height: 210px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account {
+    height: 210px;
+    width: 180px;
+    float: left;
+}
+
+.account ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.account ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.help-acc {
+    height: 210px;
+    width: 300px;
+    float: left;
+}
+
+.help-acc ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.help-acc ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.about {
+    height: 210px;
+    width: 300px;
+    float: left;
+}
+
+.about ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.about ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.legal {
+    height: 210px;
+    width: 300px;
+    float: left;
+}
+
+.legal ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.legal ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.media {
+    height: 140px;
+    width: 100%;
+}
+
+.icons {
+    height: 48px;
+    width: 15%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

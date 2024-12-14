@@ -1,0 +1,518 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.165);
+}
+
+.nav {
+    height: 60px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.sticky {
+    height: 80px;
+    width: 100%;
+    background-color: #002C5F;
+    position: sticky;
+    bottom: 0;
+}
+
+.division {
+    height: 80px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locator h2 a,
+.drive h2 a,
+.price h2 a,
+.buy h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.division img {
+    line-height: 85px;
+}
+
+.prevs {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 3%;
+    filter: brightness(0) invert(1);
+}
+
+.nxt {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 2%;
+    filter: brightness(0) invert(1);
+}
+
+.banner p a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+.banner p {
+    position: absolute;
+    top: 550px;
+    left: 240px;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+    background-color: #002C5F;
+}
+
+.banner .p a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+.banner .p {
+    position: absolute;
+    top: 630px;
+    left: 240px;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+    background-color: #002C5F;
+}
+
+.dots {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 89%;
+}
+
+.hyucars {
+    width: 75%;
+    margin: auto;
+}
+
+.hyucars ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hyucars ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dash {
+    height: 5px;
+    width: 25px;
+    margin: auto;
+    border-bottom: 2px solid #00AAD2;
+}
+
+.blocks {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    color: grey;
+    font-weight: 700;
+}
+
+.starting,
+.engine,
+.transmission {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgnxt {
+    filter: brightness(0) saturate(100%) invert(12%) sepia(73%) saturate(2083%) hue-rotate(195deg) brightness(98%) contrast(105%);
+    height: 13px;
+    position: absolute;
+    left: 35.8%;
+    top: 138%;
+}
+
+.i10prev {
+    position: absolute;
+    height: 30px;
+    left: 15%;
+}
+
+.i10nxt {
+    position: absolute;
+    height: 30px;
+    right: 15%;
+}
+
+.white {
+    height: 140px;
+    width: 100%;
+    background-color: #F6F3F2;
+    display: flex;
+    justify-content: center;
+}
+
+.white .blocks {
+    height: 140px;
+    width: 55%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.fourdiv {
+    display: flex;
+    align-items: center;
+}
+
+.request p a,
+.brochure p a,
+.buy p a,
+.prices p a {
+    text-decoration: none;
+    color: white;
+}
+
+.request p,
+.brochure p,
+.buy p,
+.prices p {
+    height: 45px;
+    width: 258px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 5px;
+    background-color: grey;
+}
+
+.posters {
+    height: auto;
+    width: 100%;
+}
+
+.post {
+    height: auto;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post img {
+    height: 390px;
+    width: auto;
+    padding-right: 9px;
+}
+
+.write {
+    height: 20px;
+    width: 55%;
+    margin: auto;
+    display: flex;
+}
+
+.brand {
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+.button {
+    width: 100%;
+}
+
+.btn {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn div {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #002C5F;
+}
+
+.sixbox {
+    height: 760px;
+    width: 100%;
+}
+
+.boxs {
+    height: 760px;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6 {
+    height: 370px;
+    width: 330px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.row1 img,
+.row2 img,
+.row3 img,
+.row4 img,
+.row5 img,
+.row6 img {
+    height: 370px;
+    width: 330px;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/news.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.background h1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50.5%;
+    top: 460%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.background div {
+    height: 500px;
+    width: 80%;
+    position: absolute;
+    top: 470%;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+
+.background div p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    position: absolute;
+    left: 45%;
+    top: 130px;
+}
+
+.background div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.background div button a {
+    text-decoration: none;
+    color: white;
+}
+
+.background div button {
+    height: 50px;
+    width: 170px;
+    border: none;
+    outline: none;
+    background-color: #002C5F;
+    position: absolute;
+    left: 45%;
+    top: 280px;
+}
+
+.quote {
+    width: 100%;
+}
+
+.dealer {
+    height: 300px;
+    width: 75%;
+    margin: auto;
+}
+
+.dealer h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dealer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.select {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    height: 40px;
+    width: 180px;
+    padding: 0px 30px 0px 0px;
+    margin-right: 9px;
+    margin-top: -12px;
+    border: 1px solid rgba(128, 128, 128, 0.373);
+}
+
+.inputbox input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.5px;
+    padding-left: 5px;
+}
+
+.inputbox .btn {
+    height: 50px;
+    width: 150px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 13%;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #002C5F;
+}
+
+.location {
+    width: 100%;
+}
+
+.sites {
+    height: 600px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    height: 600px;
+    width: 35%;
+}
+
+.map {
+    height: 600px;
+    width: 64%;
+}
+
+.detail {
+    height: 540px;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+}
+
+.foot {
+    height: 350px;
+    width: 75%;
+    margin: auto;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.one ul li a,
+.two ul li a,
+.three ul li a,
+.four ul li a,
+.five ul li a,
+.six ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bluebloc {
+    height: 150px;
+    width: 100%;
+    background-color: #002C5F;
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.blocs {
+    height: 150px;
+    width: 55%;
+    margin: auto;
+}
+
+.blocs h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    color: white;
+    padding-top: 60px;
+}
+
+.blocs p {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
