@@ -1,0 +1,593 @@
+/* Large Screen */
+@media (max-width:1200px) {
+    .attached {
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .banner4 {
+        height: auto;
+    }
+
+    .table {
+        height: auto;
+    }
+
+    .form {
+        height: auto;
+        width: 70%;
+    }
+
+    .inform {
+        height: auto;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container1 input,
+    .container3 input {
+        width: 100%;
+    }
+
+    .container2 p {
+        width: 95%;
+        margin: 0%;
+    }
+
+    .container2 input {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .container4 textarea {
+        width: 95%;
+        margin-left: 0%;
+    }
+}
+
+/* Laptop Screen */
+@media (max-width:1024px) {
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cont1 button {
+        margin: 15 0%;
+        width: 80%;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4 {
+        height: 300px;
+        width: 100%;
+        margin: 5% 2%;
+    }
+
+    .about .cont {
+        height: auto;
+    }
+
+    video {
+        height: 200px;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .info {
+        height: auto;
+    }
+
+    .data {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .data .one img {
+        height: 400px;
+        width: 100%;
+    }
+
+    .data .two {
+        width: 40%;
+    }
+
+    .stellar {
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .stellar .team {
+        height: auto;
+    }
+
+    .mates {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mates2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .person {
+        height: auto;
+        width: 49%;
+        margin: 5% 0%;
+        padding: 10px;
+    }
+
+    .mates2 .person {
+        height: auto;
+        width: 48%;
+        margin: 0%;
+    }
+
+    .frequently {
+        height: auto;
+    }
+
+    .asked {
+        height: auto;
+        width: 90%;
+    }
+
+    .tagline {
+        height: auto;
+    }
+
+    .attached {
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .banner4 {
+        height: auto;
+    }
+
+    .table {
+        height: auto;
+    }
+
+    .form {
+        height: auto;
+        width: 70%;
+    }
+
+    .inform {
+        height: auto;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container1 input,
+    .container3 input {
+        width: 100%;
+    }
+
+    .container2 p {
+        width: 95%;
+        margin: 0%;
+    }
+
+    .container2 input {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .container4 textarea {
+        width: 95%;
+        margin-left: 0%;
+    }
+}
+
+/* Tablet Screen */
+@media (max-width:768px) {
+    .hero {
+        height: auto;
+        width: auto;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag {
+        margin-top: 3%;
+        padding: 0%;
+    }
+
+    .navbar ul {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 15px 0px;
+    }
+
+    .navbar ul li {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont1 button {
+        margin: 5%;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4 {
+        height: auto;
+        width: 100%;
+        margin: 5% 0%;
+    }
+
+    .about .cont {
+        height: auto;
+    }
+
+    video {
+        height: 300px;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .info {
+        height: auto;
+    }
+
+    .data {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .data .one img {
+        width: 100%;
+    }
+
+    .data .two {
+        width: auto;
+    }
+
+    .stellar {
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .stellar .team {
+        height: auto;
+    }
+
+    .mates {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mates2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .person {
+        height: auto;
+        width: 48%;
+        margin: 5% 0%;
+    }
+
+    .mates2 .person {
+        height: auto;
+        width: 48%;
+        margin: 0%;
+    }
+
+    .frequently {
+        height: auto;
+    }
+
+    .asked {
+        height: auto;
+        width: 90%;
+    }
+
+    .tagline {
+        height: auto;
+    }
+
+    .attached {
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .banner4 {
+        height: auto;
+    }
+
+    .table {
+        height: auto;
+    }
+
+    .form {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inform {
+        height: auto;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container1 input,
+    .container3 input {
+        width: 90%;
+    }
+
+    .container1 p,
+    .container2 p,
+    .container3 p,
+    .container4 p {
+        margin-left: 5%;
+    }
+
+    .container2 p {
+        width: 95%;
+    }
+
+    .container2 input {
+        width: 85%;
+    }
+
+    .container4 textarea {
+        width: 85%;
+        margin-left: 0%;
+    }
+}
+
+/* Mobile Screen */
+@media (max-width:480px) {
+    .hero {
+        height: auto;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin-top: 15%;
+        margin-bottom: 25%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont1 button {
+        margin: 5%;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4 {
+        height: auto;
+        width: 100%;
+        margin: 5% 0%;
+    }
+
+    .about .cont {
+        height: auto;
+    }
+
+    video {
+        height: 300px;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .info {
+        height: auto;
+    }
+
+    .data {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .data .one img {
+        width: 100%;
+    }
+
+    .data .two {
+        width: auto;
+    }
+
+    .stellar {
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .stellar .team {
+        height: auto;
+    }
+
+    .mates {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .person {
+        height: auto;
+        width: 100%;
+        margin: 5% 0%;
+    }
+
+    .mates2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .mates2 .person {
+        width: 100%;
+        margin: 5% 0%;
+    }
+
+    .frequently {
+        height: auto;
+    }
+
+    .asked {
+        height: auto;
+        width: 90%;
+    }
+
+    .tagline {
+        height: auto;
+    }
+
+    .attached {
+        height: auto;
+    }
+
+    .table {
+        height: auto;
+    }
+
+    .form {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inform {
+        height: auto;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF9AF;
+    }
+
+    .container1 input,
+    .container3 input {
+        width: 90%;
+    }
+
+    .container1 p,
+    .container3 p,
+    .container4 p {
+        margin-left: 8%;
+    }
+
+    .container2 p {
+        width: auto;
+        margin-left: 7.3%;
+    }
+
+    .container2 input {
+        width: 85%;
+        margin: auto;
+    }
+
+    .container4 textarea {
+        width: 90%;
+    }
+}

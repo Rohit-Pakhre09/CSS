@@ -1,0 +1,450 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+.nav {
+    padding-top: 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFDF2;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar ul li:hover::after {
+    position: relative;
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    margin: 0px 10px 0px 0px;
+    transition: 0.5s all ease-in-out;
+}
+
+button:hover {
+    color: black;
+    background-color: #FFFDF2;
+    border: 1px solid black;
+}
+
+.footer {
+    width: 100%;
+    background-color: #FFF9AF;
+}
+
+.foot {
+    height: 350px;
+    width: 80%;
+    margin: auto;
+}
+
+.midcont {
+    height: 350px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont1 {
+    height: 300px;
+    width: 24%;
+}
+
+.cont1 p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.cont1 button {
+    border: none;
+    width: 45%;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #0A2323;
+    margin-top: 55%;
+}
+
+.cont1 button:hover {
+    border: 1px solid black;
+    background-color: #FFF9AF;
+}
+
+.cont2 {
+    height: 300px;
+    width: 24%;
+}
+
+.cont2 p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.cont3 {
+    height: 300px;
+    width: 24%;
+}
+
+.cont3 p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.cont4 {
+    height: 300px;
+    width: 24%;
+}
+
+.cont4 p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 3.5s;
+}
+
+.about {
+    height: auto;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.about .cont {
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.about .cont p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 70px;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+video {
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2%;
+}
+
+.info {
+    height: auto;
+    width: 100%;
+}
+
+.data {
+    height: 500px;
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+}
+
+.two {
+    height: auto;
+    width: 40%;
+    margin: auto 5%;
+}
+
+.stellar {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.stellar .team {
+    height: auto;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.mates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mates2 {
+    display: flex;
+    width: 48.7%;
+    justify-content: space-between;
+}
+
+.mates2 .person {
+    width: 46.8%;
+}
+
+.stellar .team p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.person {
+    height: 500px;
+    width: 23%;
+    background-color: #FFF9AF;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+.img1 {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: blue;
+    background-image: url("Images/person1.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: blue;
+    background-image: url("Images/person2.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: blue;
+    background-image: url("Images/person3.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4 {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: blue;
+    background-image: url("Images/person4.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img5 {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: blue;
+    background-image: url("Images/person5.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img6 {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: blue;
+    background-image: url("Images/person6.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frequently {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.asked {
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+
+.tagline {
+    height: 60px;
+    display: flex;
+    margin: 0% 2%;
+}
+
+.tagline p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    margin: auto;
+}
+
+.general p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin: 3%;
+}
+
+.sec1,
+.sec2,
+.sec3 {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+}
+
+.sec1 p,
+.sec2 p,
+.sec3 p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.asked hr {
+    border: 0.1px solid grey;
+    width: 95%;
+    margin: auto;
+}
+
+.attached {
+    height: auto;
+    width: 100%;
+}
+
+.banner4 {
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    background-color: green;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/banner3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-bg {
+    width: 100%;
+}
+
+.table {
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.inform {
+    height: 500px;
+    width: 90%;
+    margin: auto;
+}
+
+.form {
+    height: 700px;
+    width: 30%;
+    margin: auto;
+    background-color: #FFF9AF;
+    border-radius: 20px;
+}
+
+.form p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container1,
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0%;
+}
+
+.form input {
+    height: 40px;
+    width: 110%;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #FFF9AF;
+}
+
+.form button:hover {
+    background-color: #FFF9AF;
+}
+
+.container2 p {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 input {
+    width: 267%;
+    margin: auto;
+}
+
+.container4 p {
+    margin: 0%;
+}
