@@ -22,7 +22,7 @@
 <img src="https://github.com/Rohit-Pakhre09/CSS-Projects/blob/04b1da635d295bea522a17805075da75b6e58e1c/Gallery/Gallery.png">
 <br>
 <h3> Wesbite Link </h3>
-<a href="https://gallery9.netlify.app/"> <p>Link: https://gallery9.netlify.app/</p> </a>
+<p>Link: </p><a href="https://gallery9.netlify.app/"> <p>https://gallery9.netlify.app/</p> </a>
 <p>This project is a fully responsive and visually appealing gallery website built using HTML, CSS, and media queries. The website is designed to provide an elegant and user-friendly experience across various screen sizes and devices.<br><br><br>HTML5: For semantic and structured content.,
 CSS3: Used for styling and layout.,
 Media Queries: Responsive design implementation.</p>
