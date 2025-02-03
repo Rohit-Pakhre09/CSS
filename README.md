@@ -19,7 +19,7 @@
 <a href="https://mac-laren.netlify.app/"> <p>https://mac-laren.netlify.app/</p> </a>
 
 <h1> Gallery </h1>
-<img src="https://github.com/Rohit-Pakhre09/CSS-Projects/blob/ec5bc461d0daaa52f6b19d05331ec3b4cd0dfd38/Mac%20Laren.png">
+<img src="https://github.com/Rohit-Pakhre09/CSS-Projects/blob/04b1da635d295bea522a17805075da75b6e58e1c/Gallery/Gallery.png">
 <br>
 <h3> Wesbite Link </h3>
 <a href="https://gallery9.netlify.app/"> <p>https://gallery9.netlify.app/</p> </a>
