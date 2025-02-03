@@ -23,9 +23,9 @@
 <br>
 <h3> Wesbite Link: </h3>
 <a href="https://gallery9.netlify.app/"> <p>https://gallery9.netlify.app/</p> </a>
-<p>This project is a fully responsive and visually appealing gallery website built using HTML, CSS, and media queries. The website is designed to provide an elegant and user-friendly experience across various screen sizes and devices.<br><br><br>HTML5: For semantic and structured content.,
-CSS3: Used for styling and layout.,
-Media Queries: Responsive design implementation.</p>
+<p>This project is a fully responsive and visually appealing gallery website built using HTML, CSS, and media queries. The website is designed to provide an elegant and user-friendly experience across various screen sizes and devices.<br><br><br>• HTML5: For semantic and structured content.<br>
+• CSS3: Used for styling and layout.<br>
+• Media Queries: Responsive design implementation.</p>
 
 <h1> Hyundai </h1>
 
