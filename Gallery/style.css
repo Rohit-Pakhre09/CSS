@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+.gallery p {
+    width: 90%;
+    margin: 2% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: white;
+}
+
+.nav-menu {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 8%;
+    color: white;
+    cursor: pointer;
+}
+
+ul li::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgb(28, 210, 255);
+    margin: auto;
+    width: 0%;
+    padding-top: 10px;
+    transition: 0.3s all ease-in-out;
+}
+
+ul li:hover::after {
+    width: 100%;
+}
+
+.box {
+    height: auto;
+    width: 90%;
+    margin: 2% auto;
+}
+
+.container-one,
+.container-two {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.box1 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+
+.box2 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.box3 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.box4 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.box5 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.box6 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.box7 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.box8 {
+    height: 400px;
+    width: 24%;
+    background-image: url("Images/Pic8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
