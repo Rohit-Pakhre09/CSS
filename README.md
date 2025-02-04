@@ -34,4 +34,4 @@
 <br>
 <h3> Wesbite Link: </h3>
 <a href="https://the-hyundai.netlify.app/"> <p>https://the-hyundai.netlify.app/</p> </a>
-<p>This project is a professional and responsive frontend clone of the Hyundai website, designed to showcase a visually appealing and user-friendly interface for automotive enthusiasts. The single-page website emphasizes modern design principles, high-quality visuals, and responsiveness to provide a seamless experience across various devices. This project focuses solely on frontend development, replicating Hyundai's premium online presence.<br><br><br>Made with:-<br><br>• HTML5<br>• CSS<br>• Media Query.</p>
+<p>This project is a professional and responsive frontend clone of the Hyundai website, designed to showcase a visually appealing and user-friendly interface for automotive enthusiasts. The single-page website emphasizes modern design principles, high-quality visuals, and responsiveness to provide a seamless experience across various devices. This project focuses solely on frontend development, replicating Hyundai's premium online presence.<br><br><br>Made with:-<br><br>• HTML5<br>• CSS</p>
