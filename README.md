@@ -12,7 +12,7 @@
 <br>
 <h3> Wesbite Link </h3>
 <a href="https://the-happenstance.netlify.app/"> <p>https://the-happenstance.netlify.app/</p> </a>
-<p>This project is a pixel-perfect, one-page frontend clone of the Happenstance website, crafted using modern web technologies. The design focuses on replicating the original website's elegant layout, typography, and interactive elements. The project emphasizes clean and maintainable code with full responsiveness to ensure a seamless user experience across all device sizes.<br><br><br>Made with:-<br><br>• HTML5<br>• CSS<br>• Media Query.</p>
+<p>This project is a pixel-perfect, one-page frontend clone of the Happenstance website, crafted using modern web technologies. The design focuses on replicating the original website's elegant layout, typography, and interactive elements. The project emphasizes clean and maintainable code with full responsiveness to ensure a seamless user experience across all device sizes.<br><br><br>Made with:-<br><br>• HTML5<br>• CSS</p>
 
 <h1> Mac Laren Web-Page (Min-Width) </h1>
 <img src="https://github.com/Rohit-Pakhre09/CSS-Projects/blob/ec5bc461d0daaa52f6b19d05331ec3b4cd0dfd38/Mac%20Laren.png">
