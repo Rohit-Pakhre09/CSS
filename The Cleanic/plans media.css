@@ -1,0 +1,201 @@
+/* Laptop Screen */
+@media (max-width:1024px) {
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cont1 button {
+        margin: 15 0%;
+        width: 80%;
+    }
+
+    .cont1,.cont2,.cont3,.cont4 {
+        height: 300px;
+        width: 100%;
+        margin: 5% 2%;
+    }
+
+    .ourplans {
+        height: auto;
+    }
+
+    .plans {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one,.two,.three {
+        width: 100%;
+        margin: 10% 1%;
+    }
+}
+
+/* Tablet Screen */ 
+@media (max-width:768px) {
+    .hero {
+        height: auto;
+        width: auto;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag {
+        margin-top: 3%;
+        padding: 0%;
+    }
+
+    .navbar ul {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 15px 0px;
+        /* margin-top: 5%; */
+    }
+
+    .navbar ul li {
+        display: flex;
+        flex-direction: row;
+        /* padding: 3%; */
+        text-align: center;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont1 button {
+        margin: 5%;
+    }
+
+    .cont1,.cont2,.cont3,.cont4 {
+        height: auto;
+        width: 100%;
+        margin: 5% 0%;
+    }
+
+    .ourplans {
+        height: auto;
+    }
+
+    .plans {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one,.two,.three {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .three {
+        margin-bottom: 10%;
+    }
+
+    .paragraph p {
+        padding: 8px 0px;
+    }
+}
+
+/* Mobile Screen */ 
+@media (max-width:480px) {
+    .hero {
+        height: auto;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin-top: 15%;
+        margin-bottom: 25%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont1 button {
+        margin: 5%;
+    }
+
+    .cont1,.cont2,.cont3,.cont4 {
+        height: auto;
+        width: 100%;
+        margin: 5% 0%;
+    }
+
+    .ourplans {
+        height: auto;
+    }
+
+    .plans {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one,.two,.three {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .three {
+        margin-bottom: 10%;
+    }
+
+    .paragraph p {
+        padding: 12px 0px;
+    }
+}   

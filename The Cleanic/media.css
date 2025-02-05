@@ -1,0 +1,1103 @@
+/* Large Screen */
+@media (max-width:2000px) {
+    .table {
+        width: 100%;
+    }
+
+    .table {
+        height: auto;
+        width: 90%;
+    }
+
+    .formtable {
+        width: 70%;
+        margin-left: 45%;
+    }
+
+    .fourblocks {
+        height: auto;
+    }
+
+    .fourblocks .one,
+    .fourblocks .two,
+    .fourblocks .three,
+    .fourblocks .four {
+        height: auto;
+    }
+
+    .background {
+        margin-top: 15%;
+    }
+
+    .featurebg {
+        height: auto;
+    }
+
+    .feature {
+        height: auto;
+        width: auto;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .brandname {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .brand {
+        width: auto;
+        margin: auto;
+        /* background-color: red; */
+    }
+
+    .brand .img1,
+    .brand .img2,
+    .brand .img3,
+    .brand .img4,
+    .brand .img5 {
+        width: 10%;
+        margin: auto;
+    }
+
+    .a-and-b {
+        height: auto;
+    }
+
+    .clean {
+        height: auto;
+    }
+
+    .pics {
+        height: auto;
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .twopics {
+        height: auto;
+        margin: 0%;
+    }
+
+    .pik {
+        height: auto;
+        margin: 3% 5%;
+    }
+
+    #detail1 input {
+        height: 40px;
+        width: 210px;
+        border: 1px solid black;
+        background-color: #FFF9AF;
+        border-radius: 10px;
+    }
+
+    #detail2 input {
+        height: 40px;
+        width: 210px;
+        border: 1px solid black;
+        background-color: #FFF9AF;
+        border-radius: 10px;
+    }
+
+}
+
+/* Laptop Screen */
+@media (max-width:1024px) {
+    .formtable {
+        height: auto;
+        width: 100%;
+        margin-top: -30%;
+        margin-left: 5%;
+    }
+
+    .form {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+
+    .content {
+        height: auto;
+        margin: auto;
+    }
+
+    .content button {
+        margin-bottom: 5%;
+    }
+
+    .blocks {
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .fourblocks {
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 24.5%;
+    }
+
+    .blockcontent {
+        height: auto;
+        margin-top: 0%;
+    }
+
+    .animationbox {
+        height: auto;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        height: 500px;
+    }
+
+    .box1 .image1,
+    .box2 .image2,
+    .box3 .image3 {
+        height: 500px;
+    }
+
+    .background {
+        height: auto;
+    }
+
+    .back {
+        height: auto;
+    }
+
+    .back button {
+        width: 50%;
+        margin-bottom: 5%;
+    }
+
+    .featurebg {
+        height: auto;
+    }
+
+    .feature {
+        height: auto;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .brandname {
+        height: auto;
+        width: 50%;
+    }
+
+    .brand {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .brand .img1,
+    .brand .img2,
+    .brand .img3 {
+        width: 33%;
+        margin: 0%;
+    }
+
+    .brand .img4,
+    .brand .img5 {
+        width: 49%;
+        margin: 0%;
+    }
+
+    .a-and-b {
+        height: auto;
+    }
+
+    .clean {
+        height: auto;
+    }
+
+    .words {
+        height: auto;
+        width: auto;
+    }
+
+    .pics {
+        height: auto;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .twopics {
+        height: auto;
+        width: 90%;
+        margin: 0% auto;
+    }
+
+    .pik {
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .onepics img {
+        height: auto;
+        width: 98%;
+    }
+
+    .twopics img {
+        height: auto;
+        width: 98%;
+    }
+
+    .HowitWorks {
+        height: auto;
+    }
+
+    .workcont {
+        height: auto;
+    }
+
+    .workcont p {
+        margin: 5%;
+    }
+
+    .iconcontent {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4 {
+        height: auto;
+        width: 20%;
+    }
+
+    .icon1 .img,
+    .icon2 .img,
+    .icon3 .img,
+    .icon4 .img {
+        margin: auto;
+    }
+
+    .downcount {
+        height: auto;
+    }
+
+    .down {
+        height: auto;
+    }
+
+    .twocont {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .horizontal {
+        height: auto;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-right: 5%;
+    }
+
+    .vertical {
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .choose {
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .fixed {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .attach {
+        height: 550px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: left;
+        margin: auto 5%;
+    }
+
+    .star {
+        height: auto;
+        width: 100%;
+    }
+
+    .star p {
+        margin-top: 10%;
+    }
+
+    .keypoints {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .keypoints button {
+        width: 50%;
+        margin-bottom: 10%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cont1 button {
+        margin: 15 0%;
+        width: 80%;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4 {
+        height: 300px;
+        width: 100%;
+        margin: 5% 2%;
+    }
+}
+
+/* Tablet Screen */
+@media (max-width:768px) {
+    .hero {
+        height: auto;
+        width: auto;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag {
+        margin-top: 3%;
+        padding: 0%;
+    }
+
+    .navbar ul {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 15px 0px;
+        /* margin-top: 5%; */
+    }
+
+    .navbar ul li {
+        display: flex;
+        flex-direction: row;
+        /* padding: 3%; */
+        text-align: center;
+    }
+
+    .table {
+        margin: auto;
+    }
+
+    .formtable {
+        height: auto;
+        width: 100%;
+        margin: 0%;
+        margin-left: 0%;
+    }
+
+    .navbar button {
+        margin-top: -5px;
+        width: 100px;
+    }
+
+    .formtable {
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .content {
+        width: 92%;
+        height: auto;
+    }
+
+    .c1,
+    .c2,
+    .c3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .c1 p,
+    .c2 p,
+    .c3 p {
+        margin: 20px 0px;
+    }
+
+    #detail1 .c1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #detail2 .c2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #detail3 .c3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content button {
+        margin-bottom: 5%;
+    }
+
+    .blocks {
+        margin-top: 15%;
+    }
+
+    .blockcontent {
+        height: auto;
+    }
+
+    .fourblocks {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        height: auto;
+        width: 49%;
+        margin-bottom: 5%;
+    }
+
+    .background {
+        height: auto;
+        width: auto;
+        margin-top: 15%;
+    }
+
+    .back {
+        height: auto;
+    }
+
+    .animationbox {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box1,
+    .box2 {
+        height: 400px;
+        width: 49%;
+        margin-bottom: 5%;
+    }
+
+    .box3 {
+        height: 400px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .box1 .image1,
+    .box2 .image2,
+    .box3 .image3 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .back button {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .featurebg {
+        height: auto;
+    }
+
+    .feature {
+        height: auto;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .brandname {
+        height: auto;
+    }
+
+    .brand {
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .brand .img1,
+    .brand .img2,
+    .brand .img3 {
+        width: 33%;
+        margin: 0%;
+    }
+
+    .brand .img4,
+    .brand .img5 {
+        /* width: 49%; */
+        margin: 0%;
+    }
+
+    .feature .content p {
+        padding-top: 20px;
+    }
+
+    .a-and-b {
+        height: auto;
+    }
+
+    .clean {
+        height: auto;
+    }
+
+    .words {
+        height: auto;
+        width: auto;
+    }
+
+    .pics {
+        height: auto;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .twopics {
+        height: auto;
+        width: 90%;
+        margin: 0% auto;
+    }
+
+    .pik {
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .onepics img {
+        height: auto;
+        width: 98%;
+    }
+
+    .twopics img {
+        height: auto;
+        width: 98%;
+    }
+
+    .HowitWorks {
+        height: auto;
+    }
+
+    .HowitWorks p {
+        margin: 15% 0%;
+    }
+
+    .workcont {
+        height: auto;
+    }
+
+    .iconcontent {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .icon1 .img {
+        border-radius: auto;
+    }
+
+    .icon1,
+    .icon2 {
+        height: auto;
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    .icon3,
+    .icon4 {
+        height: auto;
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    .icon1 .img,
+    .icon2 .img,
+    .icon3 .img,
+    .icon4 .img {
+        margin: auto;
+    }
+
+    .downcount {
+        height: auto;
+    }
+
+    .down {
+        height: auto;
+    }
+
+    .twocont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .horizontal {
+        height: auto;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-right: 0%;
+    }
+
+    .vertical {
+        height: auto;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .choose {
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .fixed {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attach {
+        height: 500px;
+        width: 100%;
+        background-attachment: local;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .star {
+        height: auto;
+        width: 100%;
+    }
+
+    .star p {
+        margin-top: 10%;
+    }
+
+    .keypoints {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .keypoints button {
+        width: 50%;
+        margin-bottom: 10%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont1 button {
+        margin: 5%;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4 {
+        height: auto;
+        width: 100%;
+        margin: 5% 0%;
+    }
+}
+
+/* Mobile Screen */
+@media (max-width:480px) {
+    .hero {
+        height: auto;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin-top: 15%;
+        margin-bottom: 25%;
+    }
+
+    .table {
+        height: auto;
+    }
+
+    .form {
+        height: auto;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 0%;
+    }
+
+    .c1 p,
+    .c2 p,
+    .c3 p {
+        margin: 20px 0px;
+    }
+
+    .blocks {
+        margin-top: 15%;
+        /* margin-bottom: 455%; */
+    }
+
+    .fourblocks {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blockcontent {
+        height: auto;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .background {
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .back {
+        height: auto;
+        /* background-color: aqua; */
+        margin-top: 0%;
+    }
+
+    .animationbox {
+        height: auto;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        height: 400px;
+        width: 100%;
+        /* background-color: blue; */
+        margin: 20px 0px;
+    }
+
+    .box1 .image1,
+    .box2 .image2,
+    .box3 .image3 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .kot {
+        padding: 520px 0px;
+    }
+
+    .back button {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .featurebg {
+        height: auto;
+    }
+
+    .feature {
+        height: auto;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .brandname {
+        height: auto;
+    }
+
+    .brand {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .brand img {
+        padding: 40px 0px;
+    }
+
+    .pics {
+        margin: 0%;
+        display: flex;
+    }
+
+    .onepic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .twopic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .twopics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0% auto;
+        ;
+    }
+
+    .onepic img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .twopic img {
+        height: 300px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .pik {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .caption {
+        text-align: center;
+    }
+
+    .HowitWorks {
+        height: auto;
+    }
+
+    .workcont {
+        height: auto;
+    }
+
+    .workcont p {
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+
+    .iconcontent {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4 {
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .icon1 .img,
+    .icon2 .img,
+    .icon3 .img,
+    .icon4 .img {
+        margin: auto;
+    }
+
+    .downcount {
+        height: auto;
+    }
+
+    .down {
+        height: auto;
+    }
+
+    .twocont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .horizontal {
+        height: auto;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-right: 0%;
+    }
+
+    .vertical {
+        height: auto;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .choose {
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .fixed {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attach {
+        height: 300px;
+        width: 100%;
+        background-attachment: local;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .star {
+        height: auto;
+        width: 100%;
+    }
+
+    .star p {
+        margin-top: 10%;
+    }
+
+    .keypoints {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .keypoints button {
+        width: 80%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .midcont {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont1 button {
+        margin: 5%;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4 {
+        height: auto;
+        width: 100%;
+        margin: 5% 0%;
+    }
+}
